@@ -44,7 +44,7 @@ const HeroSection = () => {
           </Button>
           </a>
 
-          <a href="https://www.figma.com/proto/wBISXaytsWLqBBQPoSUUEt/Sphere?node-id=4640-6890&t=DjeiU60bXSsadwHW-1">
+          <a href="https://www.figma.com/design/wBISXaytsWLqBBQPoSUUEt/Sphere?node-id=4640-6890&t=uH9vVoaIyEPf5jXM-1">
           <Button variant="hero" size="xl">
             Ver Protótipo Figma
           </Button>

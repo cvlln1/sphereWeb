@@ -39,12 +39,13 @@ const FeaturesSection = () => {
       <div className="container mx-auto px-6">
         <div className="text-center mb-16">
 
-           {/* YouTube Video Embed */}
+          {/* YouTube Video Embed */}
           <div className="max-w-4xl mx-auto mb-12">
             <div className="relative w-full aspect-video rounded-2xl overflow-hidden shadow-2xl ring-1 ring-border/20">
+
               <iframe
                 className="absolute inset-0 w-full h-full"
-                src="https://www.youtube.com/embed/Y-W-w8yNiKU"
+                src="https://www.youtube.com/embed/QhFpA29mTDU"
                 title="Apresentação do Sphere"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                 allowFullScreen
@@ -52,6 +53,30 @@ const FeaturesSection = () => {
             </div>
           </div>
 
+
+          <div className="max-w-4xl mx-auto mb-12">
+            <div className="relative w-full aspect-video rounded-2xl overflow-hidden shadow-2xl ring-1 ring-border/20">
+
+              <h2 className="text-3xl md:text-4xl font-bold mb-4">
+                Protótipo figma
+              </h2>
+
+              <iframe className="border: 1px solid rgba(0, 0, 0, 0.1);" width="800" height="450" src="https://embed.figma.com/design/wBISXaytsWLqBBQPoSUUEt/Sphere?node-id=4640-6890&embed-host=share"></iframe>
+
+            </div>
+          </div>
+
+          <div className="max-w-4xl mx-auto mb-12">
+            <div className="relative w-full aspect-video rounded-2xl overflow-hidden shadow-2xl ring-1 ring-border/20">
+
+              <h2 className="text-3xl md:text-4xl font-bold mb-4">
+                Design Sprint (MIRO)
+              </h2>
+
+              <iframe width="768" height="432" src="https://miro.com/app/live-embed/uXjVJ25DkAc=/?embedMode=view_only_without_ui&moveToViewport=21361,-7328,1040,615&embedId=657766401148" scrolling="no" allow="fullscreen; clipboard-read; clipboard-write" ></iframe>
+
+            </div>
+          </div>
 
           <h2 className="text-3xl md:text-4xl font-bold mb-4">
             Como o <span className="gradient-text">Sphere</span> funciona
@@ -63,10 +88,10 @@ const FeaturesSection = () => {
 
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
           {features.map((feature, index) => (
-            <div 
+            <div
               key={feature.title}
               className="feature-card group"
-              style={{ 
+              style={{
                 animationDelay: `${index * 0.1}s`,
               }}
             >
