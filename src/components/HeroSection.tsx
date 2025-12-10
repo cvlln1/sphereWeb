@@ -12,46 +12,46 @@ const HeroSection = () => {
 
       <div className="relative z-10 container mx-auto px-6 text-center">
         <div className="animate-fade-in-up" style={{ animationDelay: "0.1s" }}>
-          <img 
-            src={logoSphere} 
-            alt="Sphere Logo" 
-            className="w-40 h-40 mx-auto mb-8 animate-float"
+          <img
+            src={logoSphere}
+            alt="Sphere Logo"
+            className="w-60 h-35 mx-auto mb-8 mt-8 animate-float"
           />
         </div>
 
-        <h1 
+        <h1
           className="text-5xl md:text-7xl font-bold mb-6 animate-fade-in-up"
           style={{ animationDelay: "0.2s", opacity: 0 }}
         >
           <span className="gradient-text">Sphere</span>
         </h1>
 
-        <p 
+        <p
           className="text-xl md:text-2xl text-muted-foreground max-w-2xl mx-auto mb-10 animate-fade-in-up"
           style={{ animationDelay: "0.3s", opacity: 0 }}
         >
-          O app completo para organizar suas festas e contratar os melhores serviços. 
+          O app completo para organizar suas festas e contratar os melhores serviços.
           Tudo em um só lugar.
         </p>
 
-        <div 
+        <div
           className="flex flex-col sm:flex-row gap-4 justify-center animate-fade-in-up"
           style={{ animationDelay: "0.4s", opacity: 0 }}
         >
           <a href="https://www.figma.com/proto/wBISXaytsWLqBBQPoSUUEt/Sphere?node-id=4640-6890&t=DjeiU60bXSsadwHW-1">
-          <Button variant="hero" size="xl">
-            Ver Demo Figma
-          </Button>
+            <Button variant="hero" size="xl">
+              Ver Demo Figma
+            </Button>
           </a>
 
           <a href="https://www.figma.com/design/wBISXaytsWLqBBQPoSUUEt/Sphere?node-id=4640-6890&t=uH9vVoaIyEPf5jXM-1">
-          <Button variant="hero" size="xl">
-            Ver Protótipo Figma
-          </Button>
+            <Button variant="hero" size="xl">
+              Ver Protótipo Figma
+            </Button>
           </a>
         </div>
 
-        <div 
+        <div
           className="mt-16 flex items-center justify-center gap-8 text-muted-foreground animate-fade-in-up"
           style={{ animationDelay: "0.5s", opacity: 0 }}
         >
@@ -69,6 +69,23 @@ const HeroSection = () => {
             <p className="text-3xl font-bold gradient-text">4.9★</p>
             <p className="text-sm">Avaliação</p>
           </div>
+        </div>
+
+        <div
+          className="mt-16 flex flex-col items-center justify-center gap-8 text-muted-foreground animate-fade-in-up"
+          style={{ animationDelay: "0.5s", opacity: 0 }}
+        >
+          <h2 className="text-3xl md:text-4xl font-bold mb-4">
+            O que é o  <span className="gradient-text">Sphere</span>?
+          </h2>
+
+          <p
+          className="text-xl md:text-2xl text-muted-foreground max-w-2xl mx-auto mb-10 animate-fade-in-up"
+          style={{ animationDelay: "0.3s", opacity: 0 }}
+        >
+          Sphere é um projeto desenvolvido para a disciplina de IHC do curso de Ciência da Computação, utilizando métodos do Google Design Sprint. Seu objetivo é criar um aplicativo simples e integrado para gerenciar a contratação de serviços e contato seus fornnecedores no contexto de gerenciamento de festas.
+
+        </p>
         </div>
       </div>
     </section>

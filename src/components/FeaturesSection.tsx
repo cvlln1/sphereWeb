@@ -73,7 +73,7 @@ const FeaturesSection = () => {
                 Design Sprint (MIRO)
               </h2>
 
-              <iframe width="768" height="432" src="https://miro.com/app/live-embed/uXjVJ25DkAc=/?embedMode=view_only_without_ui&moveToViewport=21361,-7328,1040,615&embedId=657766401148" scrolling="no" allow="fullscreen; clipboard-read; clipboard-write" ></iframe>
+              <iframe width="768" height="432" src="https://miro.com/app/live-embed/uXjVJ25DkAc=/?embedMode=view_only_without_ui&moveToViewport=21361,-7328,1040,615&embedId=657766401148" scrolling="no" allow="fullscreen; clipboard-read; clipboard-write"></iframe>
 
             </div>
           </div>
